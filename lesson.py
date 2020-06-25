@@ -1,12 +1,25 @@
-class Point:
-    def __init__(self, x, y):
-        self.x = x
-        self.y = y
-    
-    def dist(self, z):
-        return ((self.x - z.x) ** 2 + (self.y - z.y) ** 2) ** 0.5
+def check_password(pwd):
+    chk = list(pwd)
+    simbols = '!@#$%*'
+    digits = 0
+    title = 0
+    simb = 0
+    for i in chk:
+        if i in simbols:
+            simb += 1
+            continue
+        elif i.isdigit():
+            digits += 1
+            continue
+        elif i.isupper():
+            title += 1
+            continue
+
+    if len(pwd) > 9 and digits > 2 and title and simb:
+        return 'Perfect password'
+    return 'Easy peasy'
 
 
-p1 = Point(12.7, 1)
-p2 = Point(1.5, 2)
-print(p1.dist(p2))
+
+pwd = input()
+print(check_password(pwd))
