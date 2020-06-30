@@ -15,10 +15,11 @@ student2 = {
     'certificate': True
 }
 
-# data = [student1, student2]
-# data_json = json.dumps(data, indent=4, sort_keys=True)
-# data_again = json.loads(data_json)
-# print(sum(data_again[0]["scores"]))
+data = [student1, student2]
+data_json = json.dumps(data, indent=4, sort_keys=True)
+data_again = json.loads(data_json)
+#print(json.dumps(data, indent=4, sort_keys=True))
+#print(sum(data_again[0]["scores"]))
 
 # print(json.dumps(data, indent=4, sort_keys=True))
 # with open("students.json", "w") as f:

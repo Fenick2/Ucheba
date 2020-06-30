@@ -19,4 +19,5 @@ def get_password(panel):
         return 'super_secure_password'
 
 
+print(get_password.__name__)
 print(get_password('billing'))

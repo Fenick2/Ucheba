@@ -2,6 +2,7 @@ from functools import wraps
 
 user = {'name': 'Nick', 'access_level': 'admin'}
 
+
 def make_secure(access_level):
     def decorator(func):
         @wraps(func)
@@ -13,15 +14,16 @@ def make_secure(access_level):
         return secure_function
     return decorator
 
+
 @make_secure('admin')
 def get_admin_password():
     return '1234'
 
+
 @make_secure('user')
-def get_user_pasword():
+def get_user_password():
     return 'qwerty'
 
 
 print(get_admin_password())
-print(get_user_pasword())
-
+print(get_user_password())

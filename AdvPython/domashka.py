@@ -1,15 +1,14 @@
-#print(list(map(abs,list(map(int, input().split())))))
+from functools import wraps
+from time import time
 
-people = {'Bob Smith': 16, 'Alice Taylor': 19, 'Rolf Wilson': 21, 'Anna Miller': 17}
-adult_names = []
+def timing(f):
+    @wraps(f)
+    def wrap(*args, **kwargs):
+        ts = time()
+        res = f(*args, **kwargs)
+        te = time()
+        print(f"""func: {f.__name__}({args}, {kwargs})
+              took: {te-ts:2.4f} sec""")
+        return res
+    return wrap
 
-# for person in people:
-#     if people[person] >= 18:
-#         name = person.split()[0]
-#         adult_names.append(name)
-
-# print(adult_names)
-
-print([person.split()[0] for person in people if people[person] >= 18])
-print([person.split()[0] for person in list(filter(lambda x: people.get(x) >= 18, people))])
-print(list(map(lambda person: person.split()[0], filter(lambda x: people.get(x) >= 18, people))))
