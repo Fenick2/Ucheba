@@ -1,9 +1,16 @@
-import re
 import requests
+import re
 
-res1 = input()
+res1 = 'http://pastebin.com/raw/7543p0ns'
 
-link_pattern = re.compile(r'<a[^>]*?href="(.*?)"[^>]*?>')
+pattern = r'<a[^>]*?(?:href=\"http://)([\w\.\-]*)[^>]*?>'
 resp = requests.get(res1).text
-for url in link_pattern.findall(resp):
-    cur_resp = requests.get(url).text
+cur_resp = set()
+
+for url in re.findall(pattern ,  resp):
+    cur_resp.add(url)
+
+lst = list(sorted(cur_resp))
+
+for i in lst:
+    print(i)
