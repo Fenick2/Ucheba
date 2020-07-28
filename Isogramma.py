@@ -3,12 +3,10 @@ def isogr(x):
     for i in x.lower():
         c = x.count(i)
         if c >= 2:
-            print('not isogramma')
-            return 
-    print('isogramma')
-    return
+            return 'not isogramma'
+        return 'isogramma'
 
 a = 'asdjfhgitu'
 b = 'dndndjkfkv va'
-isogr(a)
-isogr(b)
+print(isogr(a))
+print(isogr(b))
