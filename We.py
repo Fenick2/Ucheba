@@ -1,11 +1,7 @@
-import requests
+def hanoi(x: int):
+    if x == 1:
+        return 1
+    return hanoi(x - 1) * 2 + 1
 
-r = requests.get('https://stepic.org/media/attachments/course67/3.6.3/699991.txt')
-s = r.text
 
-url = 'https://stepic.org/media/attachments/course67/3.6.3/'
-while 'We' not in s:
-    url2 = url+s
-    r = requests.get(url2)
-    s = r.text
-print(s)
+print(hanoi(9.0))

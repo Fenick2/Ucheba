@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a7dd7bd9-be9b-4bb7-a88c-90c970bc1075" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/function testCycle(n) {.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Sorting_algs.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tk_calc.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../new_py.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test_speed_listsort.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/function testFactorial(a) .js" beforeDir="false" afterPath="$PROJECT_DIR$/function testFactorial(a) .js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New_py.py" beforeDir="false" afterPath="$PROJECT_DIR$/../New_py.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Test.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../We.py" beforeDir="false" afterPath="$PROJECT_DIR$/../We.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module3/api.py" beforeDir="false" afterPath="$PROJECT_DIR$/../module3/api.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module3/urok.py" beforeDir="false" afterPath="$PROJECT_DIR$/../module3/urok.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pass.py" beforeDir="false" afterPath="$PROJECT_DIR$/../pass.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../time.py" beforeDir="false" afterPath="$PROJECT_DIR$/../time.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1fPtZWqajEy8gPXgE1i6RkgrXLv" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../HTML" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a7dd7bd9-be9b-4bb7-a88c-90c970bc1075" name="Default Changelist" comment="" />
+      <created>1596131611962</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1596131611962</updated>
+      <workItem from="1596131613329" duration="157000" />
+      <workItem from="1596734329853" duration="2721000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="735" y="479" width="424" height="491" key="FileChooserDialogImpl" timestamp="1596131766803">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="735" y="479" width="424" height="491" key="FileChooserDialogImpl/0.27.1920.1053@0.27.1920.1053" timestamp="1596131766803" />
+    <state x="883" y="262" width="1037" height="737" key="SettingsEditor" timestamp="1596735924595">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="883" y="262" width="1037" height="737" key="SettingsEditor/0.27.1920.1053@0.27.1920.1053" timestamp="1596735924595" />
+    <state x="616" y="336" width="672" height="677" key="run.anything.popup" timestamp="1596737018589">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="616" y="336" width="672" height="677" key="run.anything.popup/0.27.1920.1053@0.27.1920.1053" timestamp="1596737018589" />
+  </component>
+</project>

@@ -13,8 +13,8 @@ params = {
 res = requests.get(api_url, params=params)
 # print(res.status_code)
 # print(res.headers["Content-Type"])
-# print(res.json())  # returns json.loads(res.text) :)
+print(res.json())  # returns json.loads(res.text) :)
 
 data = res.json()
-template = 'Current temperature in {} is {}'
-print(template.format(city, data["main"]["temp"]))
+template = f'Current temperature in {city} is {data["main"]["temp"]}'
+print(template)
