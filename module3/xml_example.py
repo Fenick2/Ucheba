@@ -1,9 +1,9 @@
 from xml.etree import ElementTree
 
-tree = ElementTree.parse("example_modified.xml")
+tree = ElementTree.parse("example.xml")
 root = tree.getroot()
 
-greg = root[0]
+# greg = root[0]
 # module1 = next(greg.iter("module1"))
 # print(module1, module1.text)
 # module1.text = str(float(module1.text) + 30)
@@ -19,7 +19,7 @@ greg = root[0]
 # greg.remove(description)
 
 # tree.write("example_modified.xml")
-print(ElementTree.ElementTree.__doc__)
+# print(ElementTree.ElementTree.__doc__)
 
 
 
@@ -36,8 +36,8 @@ print(ElementTree.ElementTree.__doc__)
 
 # use root = ElementTree.fromstring(string_xml_data) to parse from str
 
-# print(root)
-# print(root.tag, root.attrib)
+print(root)
+print(root.tag, root.attrib)
 
 # print(root[0][0].text)
 

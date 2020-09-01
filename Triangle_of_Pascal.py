@@ -1,4 +1,4 @@
-n = 6
+n = int(input())
 triangle = []
 
 for i in range(n+1):
@@ -12,4 +12,3 @@ for i in range(0, n+1):
 	for j in range(0, i+1):
 		print(triangle[i][j], end=' ')
 	print()
-

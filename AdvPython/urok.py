@@ -1,22 +1,14 @@
-user = {'name': 'Nick', 'access_level': 'guest'}
+import time
+import os
 
-# def get_password():
-#     if user['access_level'] == 'admin':
-#         return '1234'
+pid = os.fork()
 
-def make_secure(func):
-    def secure_function():
-        if user['access_level'] == 'admin':
-            return func()
-        else:
-            return f'No admin permissions for {user["name"]}'
-
-    return secure_function
-
-@make_secure
-def get_password():
-    return '1234'
+if pid == 0:
+    while True:
+        print(f'child: {os.getpid()}')
+    time.sleep(5)
+else:
+    print(f'parent: {os.getpid()}')
+    os.wait()
 
 
-print(get_password.__name__)
-print(get_password())
